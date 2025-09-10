@@ -1,0 +1,316 @@
+{
+    "RAW_DATA_PATH" : "/home/woodydrylab/YCLlab_raw_data/YCLlab_Rawdata/RNA-seq",
+    "OTHER_DATA_PATH" : "/home/f06b22037/DiskArray_f06b22037/HDD2",
+    "REF_GENOME_FASTA" : {
+        "Ptr" : "/home/woodydrylab/HDD/GenomicsData/Populus_trichocarpa/Ptrichocarpa_533_v4.1/Ptrichocarpa_533_v4.0.fa"
+
+    },
+    "REF_MAX_INTRON_LENGTH" : {
+        "Ptr" : 21971
+    },
+    "REF_GENOME_GTF" : {
+        "Ptr" : "/home/woodydrylab/HDD/GenomicsData/Populus_trichocarpa/Ptrichocarpa_533_v4.1/Ptrichocarpa_533_v4.1.gene_addExon.gtf"
+    },
+    "REF_SPECIES" :{
+        "Ptr" : "Ptr",
+
+        "NucXyBio2"  : "Ptr",
+        "NucPhBio2"  : "Ptr",
+        "NucXyBio3"  : "Ptr",
+        "NucPhBio3"  : "Ptr",
+
+        "NucXyProtoBio1"  : "Ptr",
+        "NucXyProtoBio2"  : "Ptr"
+
+
+    },
+    "HISAT2_THREADS" : {
+        "PtrFiber1_1" : "32",
+        "PtrFiber1_2" : "32",
+        "PtrFiber1_3" : "32",
+
+        "PtrRay1_1" : "32",
+        "PtrRay1_2" : "32",
+        "PtrRay1_3" : "32",
+
+        "PtrVessel1_1" : "32",
+        "PtrVessel1_2" : "32",
+        "PtrVessel1_3" : "32",
+
+
+    },
+    "SEQ_LENGTH" : {
+        "PtrFiber1_1" : 150,
+        "PtrFiber1_2" : 150,
+        "PtrFiber1_3" : 150,
+
+        "PtrRay1_1" : 150,
+        "PtrRay1_2" : 150,
+        "PtrRay1_3" : 150,
+
+        "PtrVessel1_1" : 150,
+        "PtrVessel1_2" : 150,
+        "PtrVessel1_3" : 150
+
+
+
+    },
+    "MQD_SAMPLE" : {
+        "PtrFiber1" : ["PtrFiber1_1", "PtrFiber1_2", "PtrFiber1_3"],
+        "PtrRay1" : ["PtrRay1_1", "PtrRay1_2", "PtrRay1_3"],
+        "PtrVessel1" : ["PtrVessel1_1", "PtrVessel1_2", "PtrVessel1_3"]
+    },
+    "MQD_FASTQ" : {
+        "PtrFiber1_1" : [
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtFiber_1_S5_R1_001.fastq.gz",
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtFiber_1_S5_R2_001.fastq.gz"
+        ],
+        "PtrFiber1_2" : [
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtFiber_2_S7_R1_001.fastq.gz",
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtFiber_2_S7_R2_001.fastq.gz"
+        ],
+        "PtrFiber1_3" : [
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtFiber_3_S10_R1_001.fastq.gz",
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtFiber_3_S10_R2_001.fastq.gz"
+        ],
+        "PtrRay1_1" : [
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtRay_1_S3_R1_001.fastq.gz",
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtRay_1_S3_R2_001.fastq.gz"
+        ],
+        "PtrRay1_2" : [
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtRay_2_S2_R1_001.fastq.gz",
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtRay_2_S2_R2_001.fastq.gz"
+        ],
+        "PtrRay1_3" : [
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtRay_3_S8_R1_001.fastq.gz",
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtRay_3_S8_R2_001.fastq.gz"
+        ],
+        "PtrVessel1_1" : [
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtVessel_1_S4_R1_001.fastq.gz",
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtVessel_1_S4_R2_001.fastq.gz"
+        ],
+        "PtrVessel1_2" : [
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtVessel_2_S6_R1_001.fastq.gz",
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtVessel_2_S6_R2_001.fastq.gz"
+        ],
+        "PtrVessel1_3" : [
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtVessel_3_S9_R1_001.fastq.gz",
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtVessel_3_S9_R2_001.fastq.gz"
+        ]
+
+    },
+    "FASTQ_FOLDER" : {
+        "Ptr" : [
+            "RAW_DATA_PATH/03_Single_cell_sequencing/TENxGenomics/TEN_Populus_trichocarpa/TEN_Populus_trichocarpa_Batch1/fastq_path/HS18186/YCL"
+        ],
+        "NucXyBio2" : [
+                "/home/woodydrylab/FileShare/temporary_data_deposit/SC_SnRNA_DATA/10X-3-SnRNA"],
+        "NucPhBio2" : [
+                "/home/woodydrylab/FileShare/temporary_data_deposit/SC_SnRNA_DATA/10X-3-SnRNA"],
+        "NucXyBio3" : [
+                "/home/woodydrylab/FileShare/temporary_data_deposit/SC_SnRNA_DATA/10X-3-SnRNA"],
+        "NucPhBio3" : [
+                "/home/woodydrylab/FileShare/temporary_data_deposit/SC_SnRNA_DATA/10X-3-SnRNA"],
+            
+        "NucXyProtoBio1" : [
+                "/home/woodydrylab/FileShare/temporary_data_deposit/SC_SnRNA_DATA/snRNA_protoplast_0814/rawdata"],
+        "NucXyProtoBio2" : [
+                "/home/woodydrylab/FileShare/temporary_data_deposit/SC_SnRNA_DATA/snRNA_protoplast_0814/rawdata"]
+                    
+    
+    },
+    "CELLRANGER_SAMPLE_NAME" : {
+        "Ptr" : "YCL",
+        "NucXyBio2" : "NucXyBio2",
+        "NucPhBio2" : "NucPhBio2",
+        "NucXyBio3" : "NucXyBio3",
+        "NucPhBio3" : "NucPhBio3",
+
+        "NucXyProtoBio1" : "xy_1",
+        "NucXyProtoBio2" : "xy_2"
+
+
+    },
+    "CELLRANGER_BATCH" : {
+        "TenX_PtrAll" : ["TenX_Ptr", "TenX_Ptr2"],
+        "TenX_LchAll" : ["TenX_Lch", "TenX_Lch2", "TenX_Lch3", "TenX_Lch4", "TenX_Lch5"]
+    },
+    "CELLRANGER_BATCH_KIT" : {
+        "TenX_PtrAll" : ["v2", "v3"],
+        "TenX_LchAll" : ["TenX_Lch", "TenX_Lch2", "TenX_Lch3", "TenX_Lch4", "TenX_Lch5"]
+    },
+    "CELLRANGER_PARAMS" : {
+        "Ptr" : "./configs/Ptr_params.csv",
+
+        "NucXyBio2" : "./configs/Ptr_params.csv",
+        "NucPhBio2" : "./configs/Ptr_params.csv",
+        "NucXyBio3" : "./configs/Ptr_params.csv",
+        "NucPhBio3" : "./configs/Ptr_params.csv",
+
+        "NucXyProtoBio1" : "./configs/Ptr_params.csv",
+        "NucXyProtoBio2" : "./configs/Ptr_params.csv"
+
+    },
+    "CELLRANGER_N_CLUSTER" : {
+        "TenX_Ptr" : 10,
+
+        "TenX_NucXyBio2" : 10,
+        "TenX_NucPhBio2" : 10,
+        "TenX_NucXyBio3" : 10,
+        "TenX_NucPhBio3" : 10,
+
+        "TenX_NucXyProtoBio1" : 10,
+        "TenX_NucXyProtoBio2" : 10       
+    },
+    "CELLRANGER_CLUSTER_COLOR" : {
+        "TenX_Ptr" : ["#1F77B4","#8C564B","#FF7F0F","#2AA02A","#F8E71C","#9467BD","#D62728","#E377C2","#9B9B9B","#4B4B4B"],
+
+        "TenX_NucXyBio2" : ["#1F77B4","#8C564B","#FF7F0F","#2AA02A","#F8E71C","#9467BD","#D62728","#E377C2","#9B9B9B","#4B4B4B"],
+        "TenX_NucPhBio2" : ["#1F77B4","#8C564B","#FF7F0F","#2AA02A","#F8E71C","#9467BD","#D62728","#E377C2","#9B9B9B","#4B4B4B"],
+        "TenX_NucXyBio3" : ["#1F77B4","#8C564B","#FF7F0F","#2AA02A","#F8E71C","#9467BD","#D62728","#E377C2","#9B9B9B","#4B4B4B"],
+        "TenX_NucPhBio3" : ["#1F77B4","#8C564B","#FF7F0F","#2AA02A","#F8E71C","#9467BD","#D62728","#E377C2","#9B9B9B","#4B4B4B"],
+
+
+        "TenX_NucXyProtoBio1" : ["#1F77B4","#8C564B","#FF7F0F","#2AA02A","#F8E71C","#9467BD","#D62728","#E377C2","#9B9B9B","#4B4B4B"],
+        "TenX_NucXyProtoBio2" : ["#1F77B4","#8C564B","#FF7F0F","#2AA02A","#F8E71C","#9467BD","#D62728","#E377C2","#9B9B9B","#4B4B4B"]
+
+    },
+    "GROUP_For_SUMMARY" : {
+        "TenX_Ptr" : "Ptr_TenX",
+
+        "TenX_NucXyBio2" : "NucXyBio2_TenX",
+        "TenX_NucPhBio2" : "NucPhBio2_TenX",
+        "TenX_NucXyBio3" : "NucXyBio3_TenX",
+        "TenX_NucPhBio3" : "NucPhBio3_TenX",
+
+        "TenX_NucXyProtoBio1" : "NucXyProtoBio1_TenX",
+        "TenX_NucXyProtoBio2" : "NucXyProtoBio2_TenX"
+
+
+    },
+    "SPECIES" :{
+        "TenX_Ptr" : "Ptr",
+
+        "TenX_NucXyBio2" : "Ptr",
+        "TenX_NucPhBio2" : "Ptr",
+        "TenX_NucXyBio3" : "Ptr",
+        "TenX_NucPhBio3" : "Ptr",
+
+       	"TenX_NucXyProtoBio1" : "Ptr",
+        "TenX_NucXyProtoBio2" : "Ptr"
+
+
+
+    },
+    "MULTISAMPLES" : {
+
+        "scRNATung_snRNABio2" : [
+            "TenX_Ptr",
+            "TenX_NucXyBio2"
+        ],
+        "scRNATung_snRNABio3" : [
+            "TenX_Ptr",
+            "TenX_NucXyBio3"
+        ],
+       
+        "snRNA_Bio2_Bio3" : [
+            "TenX_NucXyBio2",
+            "TenX_NucXyBio3"
+        ],
+
+        "scRNATung_ProtosnRNABio1" : [
+            "TenX_Ptr",
+            "TenX_NucXyProtoBio1"
+        ],
+
+        "scRNATung_ProtosnRNABio2" : [
+            "TenX_Ptr",
+            "TenX_NucXyProtoBio2"
+        ],
+        "snRNABio2_ProtosnRNABio1" : [
+            "TenX_NucXyBio2",
+            "TenX_NucXyProtoBio1"
+        ],
+
+        "snRNABio3_ProtosnRNABio2" : [
+            "TenX_NucXyBio3",
+            "TenX_NucXyProtoBio2"
+        ],
+        "snRNABio3_ProtosnRNABio1" : [
+            "TenX_NucXyBio3",
+            "TenX_NucXyProtoBio1"
+        ],
+
+        "snRNABio2_ProtosnRNABio2" : [
+            "TenX_NucXyBio2",
+            "TenX_NucXyProtoBio2"
+        ],
+        "ProtosnRNABio1_ProtosnRNABio2" : [
+            "TenX_NucXyProtoBio1",
+            "TenX_NucXyProtoBio2"
+        ]
+        
+
+
+        
+    },
+    "SEURAT_INTEGRATING_ORDER" : {
+
+        "scRNATung_snRNABio2" : [
+			-1, -2
+        ],
+        "scRNATung_snRNABio3" : [
+			-1, -2
+        ],
+        "snRNA_Bio2_Bio3" : [
+			-1, -2
+        ],
+
+
+        "scRNATung_ProtosnRNABio1" : [
+			-1, -2
+        ],
+
+        "scRNATung_ProtosnRNABio2" : [
+			-1, -2
+
+        ],
+        "snRNABio2_ProtosnRNABio1" : [
+			-1, -2
+
+        ],
+
+        "snRNABio3_ProtosnRNABio2" : [
+			-1, -2
+
+        ],
+        "snRNABio3_ProtosnRNABio1" : [
+			-1, -2
+
+        ],
+
+        "snRNABio2_ProtosnRNABio2" : [
+			-1, -2
+        ],
+
+        "ProtosnRNABio1_ProtosnRNABio2" : [
+			-1, -2
+        ]
+        
+    },
+    "SEURAT_K_PARAM" : {
+        "scRNATung_snRNABio2" : 3,
+        "scRNATung_snRNABio3" : 3,
+        "snRNA_Bio2_Bio3" : 3,
+        "scRNATung_ProtosnRNABio1" : 3,
+        "scRNATung_ProtosnRNABio2" : 3,
+        "snRNABio2_ProtosnRNABio1" : 3,
+        "snRNABio3_ProtosnRNABio2" : 3,
+        "snRNABio3_ProtosnRNABio1" : 3,
+        "snRNABio2_ProtosnRNABio2" : 3,
+        "ProtosnRNABio1_ProtosnRNABio2": 3
+    }
+}
+
+
+
