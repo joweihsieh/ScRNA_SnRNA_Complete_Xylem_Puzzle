@@ -7,5 +7,4 @@ This repository contains code for the following analyses:
 4. MetaNeighbor analysis
 5. Trajectory inference using Slingshot
 
-[![DOI](https://zenodo.org/badge/1054414286.svg)](https://doi.org/10.5281/zenodo.17095557)
-
+[![DOI](https://zenodo.org/badge/1054414286.svg)](https://doi.org/10.5281/zenodo.17095558)
