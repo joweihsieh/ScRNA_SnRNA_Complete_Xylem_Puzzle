@@ -1,6 +1,6 @@
 #### NOTE
-# The snakemake pipeline was previously established by Shang-Che Kuo.
-# Publication: Tung, CC., Kuo, SC., Yang, CL. et al. Single-cell transcriptomics unveils xylem cell development and evolution. Genome Biol 24, 3 (2023). 
+# The snakemake pipeline was previously established by Shang-Che Kuo, with some modifications.
+# Previous Publication: Tung, CC., Kuo, SC., Yang, CL. et al. Single-cell transcriptomics unveils xylem cell development and evolution. Genome Biol 24, 3 (2023). 
 # https://doi.org/10.1186/s13059-022-02845-1
 # https://github.com/Woodformation1136/SingleCell
 
