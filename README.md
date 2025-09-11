@@ -11,4 +11,4 @@ This repository contains code for the following analyses:
 * DEG
 * Trajectory inference using Slingshot
 
-[![DOI](https://zenodo.org/badge/1054414286.svg)](https://doi.org/10.5281/zenodo.17095633)
+[![DOI](https://zenodo.org/badge/1054414286.svg)](https://doi.org/10.5281/zenodo.17095636)
