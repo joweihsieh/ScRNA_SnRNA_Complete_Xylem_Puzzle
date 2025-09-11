@@ -8,7 +8,7 @@ This repository contains code for the following analyses:
 * Seurat integration 
 * Colored_UMAP
 * Kmeans
-* GO analysis
+* DEG
 * Trajectory inference using Slingshot
 
 [![DOI](https://zenodo.org/badge/1054414286.svg)](https://doi.org/10.5281/zenodo.17095633)
